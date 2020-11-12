@@ -9,7 +9,10 @@ asdfasdf
 
 afaf
 ''')
+#注释
+
 print("###数据类型和变量###")
+
 
 #布尔值
 print("---布尔值---")
@@ -21,6 +24,7 @@ print(not 1)
 print(None)
 
 print("\n---变量---")
+print("\n---变量名只能是字母，数字，下划线，不能将关键字和函数名作为变量名字---")
 a = 1
 b = "str"
 c = True
@@ -40,6 +44,12 @@ PI = 123
 #除法
 print(9/3) #3.0
 print(9//3) #3
+
+#使用函数str避免类型错误。
+age = 23
+name="junjun"
+msg = name+" is "+str(age)+ " old"
+print(msg)
 
 
 print("\n###字符串和编码###")

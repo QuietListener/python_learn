@@ -17,3 +17,12 @@ def modify(value):
 v = "222"
 modify(v)
 print(v)
+
+
+#参数
+def hello(name,words="no comment"):
+    print("hello "+ name+" ,"+ words)
+
+hello("junjun","you do well")#位置实参
+hello(words="you do bad",name="andy") #关键字实参
+hello("junjun") #默认实参

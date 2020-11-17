@@ -21,7 +21,7 @@ print(3 in l1)
 print(3 not in l1) #true
 
 '''
-if condition test:
+if condition 9_test:
    do something
 '''
 

@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32280ba9-4a3e-47c8-b9d2-9a5642611b51" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/7_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_file_and_exception/data.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_file_and_exception/file_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_test/9_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little_proj/findBigFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_module/test_module1.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_module/test_module1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_module/test_module2.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_module/test_module2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_if_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_if_while.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/6_module" />
@@ -86,31 +85,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/../nn_ml/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.file_reader">
-    <configuration name="5_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_learn" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.findBigFile">
     <configuration name="7_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,6 +132,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="findBigFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/little_proj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/little_proj/findBigFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_module1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,41 +174,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_module2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in 9_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_module" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_module/test_module2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/9_test/9_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.5_function" />
       <item itemvalue="Python.test_module1" />
-      <item itemvalue="Python.test_module2" />
       <item itemvalue="Python.7_class" />
       <item itemvalue="Python.file_reader" />
+      <item itemvalue="Python tests.Unittests in 9_test.py" />
+      <item itemvalue="Python.findBigFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findBigFile" />
+        <item itemvalue="Python tests.Unittests in 9_test.py" />
         <item itemvalue="Python.file_reader" />
         <item itemvalue="Python.7_class" />
         <item itemvalue="Python.test_module1" />
-        <item itemvalue="Python.test_module2" />
-        <item itemvalue="Python.5_function" />
       </list>
     </recent_temporary>
   </component>
@@ -248,38 +241,38 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1122" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1605260229722" />
-    <state width="1024" height="374" key="GridCell.Tab.0.bottom" timestamp="1605261679353">
+    <state width="1118" height="334" key="GridCell.Tab.0.bottom" timestamp="1605580822466">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="374" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1605261679353" />
-    <state width="1024" height="374" key="GridCell.Tab.0.center" timestamp="1605261679353">
+    <state width="1118" height="334" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822466" />
+    <state width="1118" height="334" key="GridCell.Tab.0.center" timestamp="1605580822466">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="374" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1605261679353" />
-    <state width="1024" height="374" key="GridCell.Tab.0.left" timestamp="1605261679353">
+    <state width="1118" height="334" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822466" />
+    <state width="1118" height="334" key="GridCell.Tab.0.left" timestamp="1605580822466">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="374" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1605261679353" />
-    <state width="1024" height="374" key="GridCell.Tab.0.right" timestamp="1605261679353">
+    <state width="1118" height="334" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822466" />
+    <state width="1118" height="334" key="GridCell.Tab.0.right" timestamp="1605580822466">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="374" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1605261679353" />
-    <state width="1024" height="334" key="GridCell.Tab.1.bottom" timestamp="1605261127607">
+    <state width="1118" height="334" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822466" />
+    <state width="1118" height="334" key="GridCell.Tab.1.bottom" timestamp="1605580822411">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="334" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1605261127607" />
-    <state width="1024" height="334" key="GridCell.Tab.1.center" timestamp="1605261127607">
+    <state width="1118" height="334" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822411" />
+    <state width="1118" height="334" key="GridCell.Tab.1.center" timestamp="1605580822411">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="334" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1605261127607" />
-    <state width="1024" height="334" key="GridCell.Tab.1.left" timestamp="1605261127607">
+    <state width="1118" height="334" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822411" />
+    <state width="1118" height="334" key="GridCell.Tab.1.left" timestamp="1605580822411">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="334" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1605261127607" />
-    <state width="1024" height="334" key="GridCell.Tab.1.right" timestamp="1605261127607">
+    <state width="1118" height="334" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822411" />
+    <state width="1118" height="334" key="GridCell.Tab.1.right" timestamp="1605580822411">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1024" height="334" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1605261127607" />
+    <state width="1118" height="334" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1605580822411" />
     <state x="397" y="210" key="SettingsEditor" timestamp="1605171842424">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

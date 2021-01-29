@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32280ba9-4a3e-47c8-b9d2-9a5642611b51" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/little_proj/excel/dealWithExcel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little_proj/excel/excel.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program_excel/openpyxl_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/program_excel/openpyxl_write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_learn.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_list_tube.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_list_tube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +48,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectId" id="1kBR2AptNbLp59PRKQHhd0JY8BU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,25 +63,27 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/6_module" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/program_excel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/6_module" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/little_proj/excel" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/../nn_ml/data" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/program_excel" />
+      <recent name="$PROJECT_DIR$/6_module" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.dealWithExcel">
-    <configuration name="7_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.openpyxl_read">
+    <configuration name="1-helloworld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +95,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_class.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1-helloworld.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dealWithExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_list_tube" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +113,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/little_proj/excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/little_proj/excel/dealWithExcel.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_list_tube.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openpyxl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +135,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8_file_and_exception" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/program_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8_file_and_exception/file_reader.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/program_excel/openpyxl_write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findBigFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="openpyxl_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +157,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/little_proj" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/program_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/little_proj/findBigFile.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/program_excel/openpyxl_read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,38 +171,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in 9_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/9_test/9_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.7_class" />
-      <item itemvalue="Python.file_reader" />
-      <item itemvalue="Python tests.Unittests in 9_test.py" />
-      <item itemvalue="Python.findBigFile" />
-      <item itemvalue="Python.dealWithExcel" />
+      <item itemvalue="Python.1-helloworld" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.2_list_tube" />
+      <item itemvalue="Python.openpyxl" />
+      <item itemvalue="Python.openpyxl_read" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dealWithExcel" />
-        <item itemvalue="Python.findBigFile" />
-        <item itemvalue="Python tests.Unittests in 9_test.py" />
-        <item itemvalue="Python.file_reader" />
-        <item itemvalue="Python.7_class" />
+        <item itemvalue="Python.openpyxl_read" />
+        <item itemvalue="Python.openpyxl" />
+        <item itemvalue="Python.2_list_tube" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.1-helloworld" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -211,6 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530781757813</updated>
+      <workItem from="1605772774748" duration="155000" />
+      <workItem from="1605942245492" duration="1910000" />
+      <workItem from="1605945817044" duration="6919000" />
+      <workItem from="1606792627367" duration="5833000" />
+      <workItem from="1608620639390" duration="1897000" />
+      <workItem from="1611926069848" duration="3833000" />
     </task>
     <servers />
   </component>
@@ -222,16 +250,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WindowStateProjectService">
+    <state x="433" y="27" width="658" height="818" key="#1-helloworld" timestamp="1605772799238">
+      <screen x="72" y="27" width="1285" height="818" />
+    </state>
+    <state x="433" y="27" width="658" height="818" key="#1-helloworld/72.27.1285.818@72.27.1285.818" timestamp="1605772799238" />
     <state x="1122" y="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605583779732">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -240,46 +271,112 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="733" y="338" width="976" height="597" key="#xdebugger.evaluate/0.23.1792.1097@0.23.1792.1097" timestamp="1605585199986" />
-    <state width="1118" height="334" key="GridCell.Tab.0.bottom" timestamp="1605585181291">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.0.bottom" timestamp="1611929882074">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1605585181291" />
-    <state width="1118" height="334" key="GridCell.Tab.0.center" timestamp="1605585181291">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.0.bottom/72.27.1191.796@72.27.1191.796" timestamp="1611929882074" />
+    <state width="1211" height="226" key="GridCell.Tab.0.bottom/72.27.1285.818@72.27.1285.818" timestamp="1605772929898" />
+    <state width="1450" height="247" key="GridCell.Tab.0.bottom/72.27.1504.742@72.27.1504.742" timestamp="1607053819156" />
+    <state width="1454" height="247" key="GridCell.Tab.0.bottom/72.27.1508.746@72.27.1508.746" timestamp="1606796613407" />
+    <state width="1211" height="149" key="GridCell.Tab.0.bottom/72.27.1695.790@72.27.1695.790" timestamp="1605947186832" />
+    <state width="1211" height="149" key="GridCell.Tab.0.bottom/72.27.1826.851@72.27.1826.851" timestamp="1606120422171" />
+    <state width="1211" height="149" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605945957637" />
+    <state width="1137" height="160" key="GridCell.Tab.0.center" timestamp="1611929882071">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1605585181291" />
-    <state width="1118" height="334" key="GridCell.Tab.0.left" timestamp="1605585181290">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.0.center/72.27.1191.796@72.27.1191.796" timestamp="1611929882071" />
+    <state width="1211" height="226" key="GridCell.Tab.0.center/72.27.1285.818@72.27.1285.818" timestamp="1605772929896" />
+    <state width="1450" height="247" key="GridCell.Tab.0.center/72.27.1504.742@72.27.1504.742" timestamp="1607053819155" />
+    <state width="1454" height="247" key="GridCell.Tab.0.center/72.27.1508.746@72.27.1508.746" timestamp="1606796613406" />
+    <state width="1211" height="149" key="GridCell.Tab.0.center/72.27.1695.790@72.27.1695.790" timestamp="1605947186831" />
+    <state width="1211" height="149" key="GridCell.Tab.0.center/72.27.1826.851@72.27.1826.851" timestamp="1606120422170" />
+    <state width="1211" height="149" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605945957635" />
+    <state width="1137" height="160" key="GridCell.Tab.0.left" timestamp="1611929882070">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1605585181290" />
-    <state width="1118" height="334" key="GridCell.Tab.0.right" timestamp="1605585181291">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.0.left/72.27.1191.796@72.27.1191.796" timestamp="1611929882070" />
+    <state width="1211" height="226" key="GridCell.Tab.0.left/72.27.1285.818@72.27.1285.818" timestamp="1605772929895" />
+    <state width="1450" height="247" key="GridCell.Tab.0.left/72.27.1504.742@72.27.1504.742" timestamp="1607053819155" />
+    <state width="1454" height="247" key="GridCell.Tab.0.left/72.27.1508.746@72.27.1508.746" timestamp="1606796613404" />
+    <state width="1211" height="149" key="GridCell.Tab.0.left/72.27.1695.790@72.27.1695.790" timestamp="1605947186830" />
+    <state width="1211" height="149" key="GridCell.Tab.0.left/72.27.1826.851@72.27.1826.851" timestamp="1606120422169" />
+    <state width="1211" height="149" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605945957634" />
+    <state width="1137" height="160" key="GridCell.Tab.0.right" timestamp="1611929882072">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1605585181291" />
-    <state width="1118" height="334" key="GridCell.Tab.1.bottom" timestamp="1605585182221">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.0.right/72.27.1191.796@72.27.1191.796" timestamp="1611929882072" />
+    <state width="1211" height="226" key="GridCell.Tab.0.right/72.27.1285.818@72.27.1285.818" timestamp="1605772929897" />
+    <state width="1450" height="247" key="GridCell.Tab.0.right/72.27.1504.742@72.27.1504.742" timestamp="1607053819156" />
+    <state width="1454" height="247" key="GridCell.Tab.0.right/72.27.1508.746@72.27.1508.746" timestamp="1606796613406" />
+    <state width="1211" height="149" key="GridCell.Tab.0.right/72.27.1695.790@72.27.1695.790" timestamp="1605947186831" />
+    <state width="1211" height="149" key="GridCell.Tab.0.right/72.27.1826.851@72.27.1826.851" timestamp="1606120422171" />
+    <state width="1211" height="149" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605945957636" />
+    <state width="1137" height="160" key="GridCell.Tab.1.bottom" timestamp="1611929882080">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1605585182221" />
-    <state width="1118" height="334" key="GridCell.Tab.1.center" timestamp="1605585182220">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.1.bottom/72.27.1191.796@72.27.1191.796" timestamp="1611929882080" />
+    <state width="1211" height="226" key="GridCell.Tab.1.bottom/72.27.1285.818@72.27.1285.818" timestamp="1605772929904" />
+    <state width="1450" height="247" key="GridCell.Tab.1.bottom/72.27.1504.742@72.27.1504.742" timestamp="1607053819157" />
+    <state width="1454" height="247" key="GridCell.Tab.1.bottom/72.27.1508.746@72.27.1508.746" timestamp="1606796613305" />
+    <state width="1211" height="149" key="GridCell.Tab.1.bottom/72.27.1695.790@72.27.1695.790" timestamp="1605947183126" />
+    <state width="1211" height="149" key="GridCell.Tab.1.bottom/72.27.1826.851@72.27.1826.851" timestamp="1606120422089" />
+    <state width="870" height="226" key="GridCell.Tab.1.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1605943761019" />
+    <state width="1137" height="160" key="GridCell.Tab.1.center" timestamp="1611929882076">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1605585182220" />
-    <state width="1118" height="334" key="GridCell.Tab.1.left" timestamp="1605585182220">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.1.center/72.27.1191.796@72.27.1191.796" timestamp="1611929882076" />
+    <state width="1211" height="226" key="GridCell.Tab.1.center/72.27.1285.818@72.27.1285.818" timestamp="1605772929901" />
+    <state width="1450" height="247" key="GridCell.Tab.1.center/72.27.1504.742@72.27.1504.742" timestamp="1607053819156" />
+    <state width="1454" height="247" key="GridCell.Tab.1.center/72.27.1508.746@72.27.1508.746" timestamp="1606796613304" />
+    <state width="1211" height="149" key="GridCell.Tab.1.center/72.27.1695.790@72.27.1695.790" timestamp="1605947183125" />
+    <state width="1211" height="149" key="GridCell.Tab.1.center/72.27.1826.851@72.27.1826.851" timestamp="1606120422088" />
+    <state width="870" height="226" key="GridCell.Tab.1.center/72.27.1848.1053@72.27.1848.1053" timestamp="1605943761017" />
+    <state width="1137" height="160" key="GridCell.Tab.1.left" timestamp="1611929882075">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1605585182220" />
-    <state width="1118" height="334" key="GridCell.Tab.1.right" timestamp="1605585182220">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.1.left/72.27.1191.796@72.27.1191.796" timestamp="1611929882075" />
+    <state width="1211" height="226" key="GridCell.Tab.1.left/72.27.1285.818@72.27.1285.818" timestamp="1605772929899" />
+    <state width="1450" height="247" key="GridCell.Tab.1.left/72.27.1504.742@72.27.1504.742" timestamp="1607053819156" />
+    <state width="1454" height="247" key="GridCell.Tab.1.left/72.27.1508.746@72.27.1508.746" timestamp="1606796613303" />
+    <state width="1211" height="149" key="GridCell.Tab.1.left/72.27.1695.790@72.27.1695.790" timestamp="1605947183125" />
+    <state width="1211" height="149" key="GridCell.Tab.1.left/72.27.1826.851@72.27.1826.851" timestamp="1606120422087" />
+    <state width="870" height="226" key="GridCell.Tab.1.left/72.27.1848.1053@72.27.1848.1053" timestamp="1605943761016" />
+    <state width="1137" height="160" key="GridCell.Tab.1.right" timestamp="1611929882078">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state width="1118" height="334" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1605585182220" />
-    <state x="397" y="210" key="SettingsEditor" timestamp="1605584127762">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1137" height="160" key="GridCell.Tab.1.right/72.27.1191.796@72.27.1191.796" timestamp="1611929882078" />
+    <state width="1211" height="226" key="GridCell.Tab.1.right/72.27.1285.818@72.27.1285.818" timestamp="1605772929902" />
+    <state width="1450" height="247" key="GridCell.Tab.1.right/72.27.1504.742@72.27.1504.742" timestamp="1607053819157" />
+    <state width="1454" height="247" key="GridCell.Tab.1.right/72.27.1508.746@72.27.1508.746" timestamp="1606796613304" />
+    <state width="1211" height="149" key="GridCell.Tab.1.right/72.27.1695.790@72.27.1695.790" timestamp="1605947183126" />
+    <state width="1211" height="149" key="GridCell.Tab.1.right/72.27.1826.851@72.27.1826.851" timestamp="1606120422088" />
+    <state width="870" height="226" key="GridCell.Tab.1.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605943761018" />
+    <state x="164" y="86" width="962" height="737" key="SettingsEditor" timestamp="1611926335526">
+      <screen x="72" y="27" width="1191" height="796" />
     </state>
     <state x="397" y="210" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1605584127762" />
+    <state x="164" y="86" width="962" height="737" key="SettingsEditor/72.27.1191.796@72.27.1191.796" timestamp="1611926335526" />
+    <state x="320" y="108" width="1037" height="737" key="SettingsEditor/72.27.1285.818@72.27.1285.818" timestamp="1605772860227" />
+    <state x="422" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1605772776511">
+      <screen x="72" y="27" width="1285" height="818" />
+    </state>
+    <state x="422" y="253" key="com.intellij.ide.util.TipDialog/72.27.1285.818@72.27.1285.818" timestamp="1605772776511" />
     <state x="635" y="201" width="604" height="735" key="find.popup" timestamp="1605585153174">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="635" y="201" width="604" height="735" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1605585153174" />
+    <state x="489" y="94" width="672" height="678" key="search.everywhere.popup" timestamp="1606795892589">
+      <screen x="72" y="27" width="1508" height="746" />
+    </state>
+    <state x="489" y="94" width="672" height="678" key="search.everywhere.popup/72.27.1508.746@72.27.1508.746" timestamp="1606795892589" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,5 +388,12 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_learn$openpyxl.coverage" NAME="openpyxl Coverage Results" MODIFIED="1611929740668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/program_excel" />
+    <SUITE FILE_PATH="coverage/python_learn$1_helloworld.coverage" NAME="1-helloworld Coverage Results" MODIFIED="1605772902110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_learn$2_list_tube.coverage" NAME="2_list_tube Coverage Results" MODIFIED="1606796613257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_learn$openpyxl_read.coverage" NAME="openpyxl_read Coverage Results" MODIFIED="1611929826277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/program_excel" />
+    <SUITE FILE_PATH="coverage/python_learn$test.coverage" NAME="test Coverage Results" MODIFIED="1606795931014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

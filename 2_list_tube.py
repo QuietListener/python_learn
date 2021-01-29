@@ -158,3 +158,8 @@ print(t11) #(1, 2, [True, 3])
 t11[2][1] = False
 print(t11) #(1, 2, [True, False])
 #----tuple的不便性其实是每个元素指向的内存不便，内存的内容可以变的---
+
+
+for item in [1,2,3]:
+    s = "元素是"+str(item)
+    print(s)

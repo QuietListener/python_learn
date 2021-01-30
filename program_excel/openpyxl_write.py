@@ -28,4 +28,4 @@ for i in range(1,5):
         sheet['f' + str(count)] = yuwen+shuxue+yingyu+zonghe
         count+=1
 
-    book.save("sample"+str(i)+".xlsx")
+    book.save("高三"+str(i)+"班.xlsx")

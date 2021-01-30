@@ -4,10 +4,10 @@ dict_ave = {}
 dict_600 = {}
 for i in range(1,5):
 
-    name = "sample"+str(i)
+    name = "高三"+str(i)+"班"
     name_file = name+".xlsx"
     book = openpyxl.load_workbook(name_file) #打开xlsx文件，方便后面读取
-    sheet = book.active
+    sheet = book.active #得到默认的sheet
 
     count = 0
     total = 0
@@ -51,7 +51,7 @@ sheet['c' + str(1)] = "大于600分人数"
 
 count = 1
 while count <= len(dict_ave):
-    name = "sample" + str(count)
+    name = "高三"+str(count)+"班"
 
     sheet['A' + str(count+1)] = name
     sheet['B' + str(count+1)].value = dict_ave[name]
